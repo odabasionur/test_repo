@@ -6,3 +6,4 @@
 
 # branch_never_exists de değişiklik duruyor ve bu satır ekleniyor. branche branch_never_exists veriyorum.
 # "Commit 2.3" olarak gelmeli
+# Githubda Yeni bir branch oluşturdu mastera atamadım.
