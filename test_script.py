@@ -7,3 +7,13 @@
 # branch_never_exists de değişiklik duruyor ve bu satır ekleniyor. branche branch_never_exists veriyorum.
 # "Commit 2.3" olarak gelmeli
 # Githubda Yeni bir branch oluşturdu mastera atamadım. Commit 2.3.1
+
+# Sadece test_script.py dosyasını mastera mergeliyorum ve master'ı pushluyorum.
+# > git checkout master
+# > git checkout branch_never_exists test_script.py
+# "Commit 2.4" ile master'a eklenmeli (eklendi tik)
+
+# yukarıdaki yöntemle test_script.py ı tekrar branch_never_exists le merglelüyorum.
+# Bu sefer bu değişiklikleri bu branchten master a pushluyorum.
+# > git push origin branch_never_exists:master
+# Commit 2.5 ile mastera eklenmeli
